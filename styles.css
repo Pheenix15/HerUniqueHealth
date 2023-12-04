@@ -364,12 +364,16 @@ li .nav-cta:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 0;
   }
   .gallary{
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin: 0 10em;
+    padding: 3em 1em;
+    width: 70%;
+    height: auto;
   }
   .image{
     position: relative;
@@ -417,6 +421,33 @@ li .nav-cta:hover{
     color: #ffffff;
   }
 
+  .swiper-btn{
+    color: rgba(250, 1, 180, 0.4);
+    transition: color 0.3s ease-in;
+  }
+  .swiper-btn:hover{
+      color: rgba(250, 1, 180, 1);
+  }
+  .swiper-btn::before,
+  .swiper-btn::after{
+      font-size: 40px;
+  }
+  .swiper-button-next{
+      right: 0;
+  }
+  .swiper-button-prev{
+      left: 0;
+  }
+  .swiper-pagination-bullet{
+      background-color: rgba(250, 1, 180, 0.4);
+      opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+      background-color: rgba(250, 1, 180, 1);
+  }
+
+
+  /*====FOOTER===*/
   footer{
     background-color: rgba(250, 1, 180, 1);
   }
@@ -519,6 +550,8 @@ li .nav-cta:hover{
   }
 }
 
+
+
 @media (max-width:50em) {
   body {
     font-family: "PTSans", sans-serif;
@@ -553,7 +586,7 @@ li .nav-cta:hover{
     position: fixed;
     z-index: 1000;
     inset: 0 0 0 50%;
-    background: rgba(250, 1, 180, 0.5);
+    background: rgba(250, 1, 180, 0.7);
     flex-direction: column;
     padding: min( 30vh, 5rem) 2em;
     margin: 0;
@@ -584,7 +617,7 @@ li .nav-cta:hover{
     display: block;
     position: absolute;
     z-index: 9999;
-    background: url(./Img/Hamburger-menu.svg);
+    background: url(./img/Hamburger-menu.svg);
     background-repeat: no-repeat;
     border: 0;
     border-radius: 0px;
@@ -681,6 +714,10 @@ li .nav-cta:hover{
     justify-content: center;
     opacity: 1;
     transition: none;
+  }
+
+  .slide-content{
+    margin: 0 10px;
   }
 
 }

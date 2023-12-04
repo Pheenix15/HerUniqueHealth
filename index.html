@@ -3,16 +3,16 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name="keywords" content="Health care wonen's health" />
+    <meta name="keywords" content="Health care women's health" />
     <meta name="description" content="HerUniqueHealth - A women's health consultancy" />
-    <meta name="author" content="Virallinksglobal.com" />
+    <meta name="author" content="Pheenix" />
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&amp;display=swap" rel="stylesheet">
     
     <link rel="shortcut icon" href="./img/favicon-1.ico" />
-
+    <link rel="stylesheet" href="Asset/swiper-bundle.min.css">
     <link rel='stylesheet' href='styles.css'>
     <script src='script.js' defer></script>
 
@@ -23,7 +23,7 @@
     <div class="container">
         <header class="header">
             <div>
-                <img src="./img/logo.svg" alt="">
+                <img src="./img/Logo1.png" alt="">
             </div>
             <button class="nav-toggle" aria-controls="Nav" aria-expanded="false">
             </button>
@@ -34,7 +34,7 @@
                             <span aria-hidden="true"></span>HOME
                         </a></li>
                     <li>
-                        <a href="About.html">
+                        <a href="container_2">
                             <span aria-hidden="true"></span>ABOUT
                         </a></li>
                     <li>
@@ -42,7 +42,7 @@
                             <span aria-hidden="true"></span>SERVICES
                         </a></li>
                     <li>
-                        <a href="About.html#Gallary-section">
+                        <a href="#container_5">
                             <span aria-hidden="true"></span>GALLARY
                         </a></li>
                     <li >
@@ -58,7 +58,7 @@
                     <h2 class="slideUp"> A platform for women’s health and education</h2>
                     <p class="slideUp">From Seminars and webiners on womens health, to medical consultations and outreach. HeruniqueHealth is leading the way in womens health.</p>
                     <div class="hero-cta">
-                        <a href="About.html" class="about-cta fadeIn">KNOW MORE</a>
+                        <a href="#container_2" class="about-cta fadeIn">KNOW MORE</a>
                         <a href="Contact.html" class="contact-cta fadeIn">CONTACT US</a>
                     </div>
                 </div>
@@ -151,26 +151,50 @@
 
         <div Id="container_5">
             <h2>Photo Gallery</h2>
-            <div class="gallary">
-                <div class="image">
-                    <img src="img/Gallary/At a conference for doctors.jpg" alt="">
-                    <p class="content">At a Confrence for Doctors</p>
-                </div>
-                <div class="image">
-                    <img src="img/Gallary/With Colleagues.jpg" alt="">
-                    <p class="content">With Colleagues</p>
-                </div>
-                <div class="image">
-                    <img src="img/Gallary/Health outreach in Mabushi Abuja.jpeg" alt="">
-                    <p class="content">Health Outreach in Mabushi Abuja</p>
+            <div class="gallary swiper">
+                <div class="slide-content">
+                    <div class="swiper-wrapper">
+                        <div class="image swiper-slide">
+                            <img src="img/Gallary/Health outreach in Mabushi Abuja.jpeg" alt="">
+                            <p class="content">Health Outreach in Mabushi Abuja</p>
+                        </div>
+                        <div class="image swiper-slide">
+                            <img src="img/Gallary/IDP-1.jpg" alt="">
+                            <p class="content">Benin City IDP service project</p>
+                        </div>
+                        <div class="image swiper-slide">
+                            <img src="img/Gallary/IDP-2.jpg" alt="">
+                            <p class="content">Benin City IDP service project</p>
+                        </div>
+                        <div class="image swiper-slide">
+                            <img src="img/Gallary/With Anna Halpine CEO of FEMM.jpg" alt="">
+                            <p class="content">With Anna Hapline CEO of FEMM</p>
+                        </div>
+                        <div class="image swiper-slide">
+                            <img src="img/Gallary/with prof pilar virgil of reproductive health research institute Chile 2.jpg" alt="">
+                            <p class="content">With Prof. Pilar Virgil of RHRI Chile</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next swiper-btn"></div>
+                    <div class="swiper-button-prev swiper-btn"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
-            <a href="About.html" class="Gallary-cta">SEE ALL</a>
         </div>
-        <footer>
-            copyright HerUniqueHealth
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <img src="img/Logo1.png" alt="">
+                </div>
+                <div class="copyright">
+                    copyright HerUniqueHealth
+                </div>
+            </div>
         </footer>
     </div>
+
+    <script src="Asset/swiper-bundle.min.js"></script>
 </body>
 
 </html>
