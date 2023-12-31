@@ -66,6 +66,9 @@ body {
 .nav-toggle{
     display: none;
 }
+.nav-toggle-close{
+  display: none;
+}
 .Nav{
     display: flex;
     
@@ -325,6 +328,7 @@ li .nav-cta:hover{
   .contact-txt h2{
     color: #ffff;
     margin-top: 0px;
+    text-align: center;
   }
   
 
@@ -586,7 +590,7 @@ li .nav-cta:hover{
     background: url("./img/background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 80vh;
     width: 100%;
   }
   /****NAVBAR*****/
@@ -664,7 +668,7 @@ li .nav-cta:hover{
   }
 
   .feature-img{
-    height:75dvh;
+    height:60dvh;
     position: absolute;
     bottom: 0;
     right: 0;
