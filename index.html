@@ -21,68 +21,94 @@
 <body>
     <!-----Nav & Landing page-->
     <div class="container">
-        <header class="header">
-            <div>
-                <img src="./img/Logo1.png" alt="">
-            </div>
-            <button class="nav-toggle" id="nav-toggle" aria-controls="Nav" aria-expanded="false">
-                <i class="fa fa-bars" style="color: rgb(250, 1, 180, 1);"></i>
-            </button>
-             <button class="nav-toggle-close" id="nav-toggle-close" aria-controls="Nav" aria-expanded="false">
-                <i class="fa fa-times" style="color: #fff;"></i>
-            </button>
-            <nav class="navBar">
-                <ul id="Nav" data-visible="false" class="Nav">
-                    <li>
-                        <a href="index.html">
-                            <span aria-hidden="true"></span>HOME
-                        </a></li>
-                    <li>
-                        <a href="#container_2">
-                            <span aria-hidden="true"></span>ABOUT
-                        </a></li>
-                    <li>
-                        <a href="#container_3">
-                            <span aria-hidden="true"></span>SERVICES
-                        </a></li>
-                    <li>
-                        <a href="#container_5">
-                            <span aria-hidden="true"></span>GALLARY
-                        </a></li>
-                    <li >
-                        <a href="Contact.html" class=nav-cta>
-                            <span aria-hidden="true"></span>BOOK A SESSION</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div id="container_1">
+        
+        <!-- HERO SECTION -->
+        <section id="container_1">
+            <!-- MAIN HEADER -->
+            <header class="main-header">
+                <div>
+                    <img src="./img/Logo.svg" alt="HerUniqueHealth logo">
+                </div>
+
+                <nav class="main-navBar">
+                    <ul id="Nav" data-visible="false" class="main-Nav">
+                        <li>
+                            <a href="index.html">
+                                <span aria-hidden="true"></span>Home
+                            </a></li>
+                        <li>
+                            <a href="#container_2">
+                                <span aria-hidden="true"></span>About
+                            </a></li>
+                        <li>
+                            <a href="#container_3">
+                                <span aria-hidden="true"></span>Services
+                            </a></li>
+                        <li>
+                            <a href="#container_5">
+                                <span aria-hidden="true"></span>Gallery
+                            </a></li>
+                    </ul>
+                    
+                    <a href="Contact.html" ><button class=nav-cta ><span aria-hidden="true"></span>Book a Session</button></a>
+                </nav>
+            </header>
+            <!-- MOBILE HEADER -->
+            <header class="header">
+                <div>
+                    <img src="./img/Logo.svg" alt="HerUniqueHealth logo">
+                </div>
+                <button class="nav-toggle" id="nav-toggle" aria-controls="Nav" aria-expanded="false">
+                    <i class="fa fa-bars" style="color: rgb(250, 1, 180, 1);"></i>
+                </button>
+                <button class="nav-toggle-close" id="nav-toggle-close" aria-controls="Nav" aria-expanded="false">
+                    <i class="fa fa-times" style="color: #fff;"></i>
+                </button>
+                <nav class="navBar">
+                    <ul id="Nav" data-visible="false" class="Nav">
+                        <li>
+                            <a href="index.html">
+                                <span aria-hidden="true"></span>Home
+                            </a></li>
+                        <li>
+                            <a href="#container_2">
+                                <span aria-hidden="true"></span>About
+                            </a></li>
+                        <li>
+                            <a href="#container_3">
+                                <span aria-hidden="true"></span>Services
+                            </a></li>
+                        <li>
+                            <a href="#container_5">
+                                <span aria-hidden="true"></span>Gallery
+                            </a></li>
+
+                        <li class="nav-list-button"><a href="Contact.html" ><button class=nav-cta ><span aria-hidden="true"></span>Book a Session</button></a></li>
+                    </ul>
+                    
+                </nav>
+            </header>
+            <!-- HERO -->
             <div class="intro">
                 
                 <div class="intro-txt">
-                    <h2 class="slideUp"> A platform for women’s health and education</h2>
+                    <h1 class="slideUp"> A platform for women’s health and education</h1>
                     <p class="slideUp">From Seminars and webiners on womens health, to medical consultations and outreach. HeruniqueHealth is leading the way in womens health.</p>
                     <div class="hero-cta">
-                        <a href="#container_2" class="about-cta fadeIn">KNOW MORE</a>
-                        <a href="Contact.html" class="contact-cta fadeIn">CONTACT US</a>
+                        <a href="Contact.html" ><button class="contact-cta fadeIn" >Book a Session</button></a>
                     </div>
                 </div>
                 <img class="feature-img" src="img/HUH-hero.png" alt="Image of the Engr. Chinwe Odimmegwa, one of the founders of HerUniqueHealth">
             </div>
-        </div>
-       
-        
-        <div id="container_2">
-            <div class="about">
-                <img src="img/About_img.jpg">
-                <div class="about-txt">
-                    <H5>ABOUT US</H5>
-                    <H2>We are Committed to Womens Health and Well being.</H2>
-                <p>HerUniqueHealth Consult is a platform for women’s health and education. HerUniqueHealth Consult partners with Fertility Education and Medical Management (FEMM), to provide a comprehensive health program to women of all ages who are interested in taking charge of their overall health and wellbeing. We also collaborate with health professionals especially in Nigeria to create awareness about women’s health issues through community engagement. We give regular health classes to women and have carried out free medical outreaches in rural and suburban communities in Enugu state, Edo state and Federal capital territory, Abuja. HerUniqueHealth Consult was founded by Dr.Ngozi Amakeze and Engr.Chinwe Odimmegwa and was formally registered with Nigerian Corporate Affairs Commission in 2021.</p>
-                </div>
-            </div>
-        </div>
 
-        <div id="container_3">
+            <!-- SECTION BOTTOM -->
+             <div class="section-bottom">
+                <img src="img/hero-bottom.png" aria-hidden="true" alt="">
+             </div>
+        </section>
+       
+        <!-- SERVICES SECTION -->
+        <section id="container_3">
             <div class="service-section">
                 <H2>We Believe That The Heart Of Healthcare Is Service To Others</H2>
                 <div class="card">
@@ -120,9 +146,21 @@
                 </div>
 
             </div>
-        </div>
+        </section>
+        
+        <!-- ABOUT SECTION -->
+        <section id="container_2">
+            <div class="about">
+                <img src="img/About_img.jpg">
+                <div class="about-txt">
+                    <h2>About Us</h2>
+                    <h3>We are Committed to Womens Health and Well being.</h3>
+                    <p>HerUniqueHealth Consult is a platform for women’s health and education. HerUniqueHealth Consult partners with Fertility Education and Medical Management (FEMM), to provide a comprehensive health program to women of all ages who are interested in taking charge of their overall health and wellbeing. We also collaborate with health professionals especially in Nigeria to create awareness about women’s health issues through community engagement. We give regular health classes to women and have carried out free medical outreaches in rural and suburban communities in Enugu state, Edo state and Federal capital territory, Abuja. HerUniqueHealth Consult was founded by Dr.Ngozi Amakeze and Engr.Chinwe Odimmegwa and was formally registered with Nigerian Corporate Affairs Commission in 2021.</p>
+                </div>
+            </div>
+        </section>
 
-        <div id="container_4">
+        <section id="container_4">
             <div class="contact_section">
                 <div class="contact-txt">
                     <H2>Schedule An Appointment Today.</H2>
@@ -151,9 +189,9 @@
                 </div>
                 <img src="img/Contact_img.jpg">
             </div>
-        </div>
+        </section>
 
-        <div Id="container_5">
+        <section Id="container_5">
             <h2>Photo Gallery</h2>
             <div class="gallary swiper">
                 <div class="slide-content">
@@ -181,10 +219,10 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-        </div>
+        </section>
         <footer class="footer">
             <div class="footer-content">
-                <h5>&copy; HerUniqueHealth 2024.</h5>
+                <h5>&copy; HerUniqueHealth 2025.</h5>
             </div>
         </footer>
     </div>

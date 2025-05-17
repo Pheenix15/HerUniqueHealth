@@ -9,7 +9,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
 
-    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link rel="shortcut icon" href="./img/favicon-1.ico" />
 
     <link rel="stylesheet" href="fontawesome-5.15.3/css/all.min.css">
     <link rel='stylesheet' href='css/styles.css'>
@@ -19,67 +19,97 @@
 </head>
 <body>
     <!-----Nav & Landing page-->
-    <div class="container">
+    <div class="Contact-container">
+        <!-- MAIN HEADER -->
+        <header class="main-header">
+            <div>
+                <img src="./img/Logo.svg" alt="HerUniqueHealth logo">
+            </div>
+
+            <nav class="main-navBar">
+                <ul id="Nav" data-visible="false" class="main-Nav">
+                    <li>
+                        <a href="index.html">
+                            <span aria-hidden="true"></span>Home
+                        </a></li>
+                    <li>
+                        <a href="#container_2">
+                            <span aria-hidden="true"></span>About
+                        </a></li>
+                    <li>
+                        <a href="#container_3">
+                            <span aria-hidden="true"></span>Services
+                        </a></li>
+                    <li>
+                        <a href="#container_5">
+                            <span aria-hidden="true"></span>Gallery
+                        </a></li>
+                </ul>
+                
+                <a href="Contact.html" ><button class=nav-cta ><span aria-hidden="true"></span>Book a Session</button></a>
+            </nav>
+        </header>
+        <!-- MOBILE HEADER -->
         <header class="header">
             <div>
-                <img src="./img/logo.svg" alt="">
+                <img src="./img/Logo.svg" alt="HerUniqueHealth logo">
             </div>
             <button class="nav-toggle" id="nav-toggle" aria-controls="Nav" aria-expanded="false">
                 <i class="fa fa-bars" style="color: rgb(250, 1, 180, 1);"></i>
             </button>
-             <button class="nav-toggle-close" id="nav-toggle-close" aria-controls="Nav" aria-expanded="false">
+            <button class="nav-toggle-close" id="nav-toggle-close" aria-controls="Nav" aria-expanded="false">
                 <i class="fa fa-times" style="color: #fff;"></i>
             </button>
             <nav class="navBar">
                 <ul id="Nav" data-visible="false" class="Nav">
                     <li>
                         <a href="index.html">
-                            <span aria-hidden="true"></span>HOME
+                            <span aria-hidden="true"></span>Home
                         </a></li>
                     <li>
-                        <a href="index.html #container_2">
-                            <span aria-hidden="true"></span>ABOUT
+                        <a href="#container_2">
+                            <span aria-hidden="true"></span>About
                         </a></li>
                     <li>
-                        <a href="index.html#container_3">
-                            <span aria-hidden="true"></span>SERVICES
+                        <a href="#container_3">
+                            <span aria-hidden="true"></span>Services
                         </a></li>
                     <li>
-                        <a href="index.html#container_4">
-                            <span aria-hidden="true"></span>GALLARY
+                        <a href="#container_5">
+                            <span aria-hidden="true"></span>Gallery
                         </a></li>
-                    <li >
-                        <a href="Contact.html" class=nav-cta>
-                            <span aria-hidden="true"></span>BOOK A SESSION</a></li>
+
+                    <li class="nav-list-button"><a href="Contact.html" ><button class=nav-cta ><span aria-hidden="true"></span>Book a Session</button></a></li>
                 </ul>
+                
             </nav>
         </header>
 
         <div class="contact">
 
             <div class="contactInfo">
-                <h3>Contact Us</h3>
+                <h2>Contact Us</h2>
                 <p>We would love to hear from you</p>
                 <div class="contact-info">
                     <div class="contact-details">
                         <div class="phone-details">
-                            <i class="fas fa-phone" style="color: rgb(250, 1, 180, 1);"></i>
-                            <div class="phone">
-                                <h5>Phone</h5>
-                                <a href="tel:+2349018299865" style="color: #000;"><p>+2349018299865</p></a>
-                                <div class="whatsapp">
-                                    <i class="fab fa-whatsapp" style="color: rgb(250, 1, 180, 1);"></i>
-                                    <a href="tel:+2349018299865" style="color: #000;"><p>+2349018299865</p></a>
-                                </div>
-                                
+                            <h5>Phone</h5>
+
+                            <div class="contact-links phone">
+                                <i class="fas fa-phone" ></i>
+                                <a href="tel:+2348125285143" ><p>+2348125285143</p></a>
+                            </div>
+                            <div class="contact-links whatsapp">
+                                <i class="fab fa-whatsapp" ></i>
+                                <a href="tel:+2348068602339" ><p>+2348068602339</p></a>
                             </div>
 
                         </div>
                         <div class="email-details">
-                            <i class="fas fa-envelope" style="color: rgb(250, 1, 180, 1);"></i>
-                            <div class="_email">
-                                <h5>Email</h5>
-                                <p>heruniquehealth@gmail.com</p>
+                            <h5>Email</h5>
+                            <div class="contact-links _email">
+                                <i class="fas fa-envelope" ></i>
+                                <a href="mailto:heruniquehealth@gmail.com"  ><p>heruniquehealth@gmail.com</p></a>
                             </div>
                         </div>
                         <div class="social-handles">
